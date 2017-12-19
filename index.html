@@ -1,175 +1,201 @@
 <!DOCTYPE HTML>
-<!--
-	Welcome to the index page
--->
+<!-- If you're looking here, just know that I am also looking for an internship so don't be afraid to contact me! -->
 <html>
 	<head>
-		<link rel="icon" href="images/main_logo.png">
 		<title>Omar Valenzuela</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="icon" href="assets/img/main_logo.png">
+		<script src="assets/js/points.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="landing">
-
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Omar Valenzuela</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Omar Valenzuela</h2>
-							<p>Software Engineering<br />
-							University of California, Irvine<br />
-							Class of 2020 <a></a></p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+	<body class="loading">
+		<canvas id="canvas"></canvas>
+		<div id="main">
+			<!-- Header -->
+			<header id="header">
+				<h1>Omar Valenzuela</h1>
+				<p>Division 1 Student Athlete &nbsp;&bull;&nbsp; Software Engineering &nbsp;&bull;&nbsp; University of California, Irvine</p>
+				<nav>
+					<ul>
+						<li><a target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a target="_blank" href="https://ucirvinesports.com/roster.aspx?rp_id=2562" class="icon fa-flickr"><span class="label">UCI</span></a></li>
+						<li><a target="_blank" href="https://medium.com/@ovalenzu" class="icon fa-medium"><span class="label">Medium</span></a></li>
+						<li><a target="_blank" href="https://github.com/ovalenzu20" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/omar-valenzuela-63bba114a/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					</ul>
+				</nav>
+				<a href="#one">
+					<ul style="position: relative; top: 40px;" id="arrow_navigation">
+							<!--<li style="font-size: 30px;"><p>Scroll for More</p></li>-->
+							<div class="arrow bounce">
+								<li class="icon fa-angle-down" style="font-size: 50px; top: 50px; border: 0px; padding: 0px; margin: 0px;"></li>
 							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+					</ul>
+				</a>
+			</header>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
+			<!-- Section --> 
+			<section id="one">
+				<div id="experienceLogo">
+					<h1 class="icon fa-file-code-o" id="experience"> Projects</h1>
+				</div>
+
+				<figure class="snip1579">
+				<img src="assets/img/code2040.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="https://github.com/CODE2040/2018-code-samples/pull/222">
+  					<h3>Code2040</h3>
+					    <h5>Ruby on Rails App</h5>
+   						 <blockquote>
+     						 <p>A web app deployed on Heroku with the help of Code2040. Developed a small quiz using two harry potter .json data sets and created a chart using Chart.js. 
+     						 </p>
+    					 </blockquote>
+  					</figcaption></a>
+				</figure>
+
+				<figure class="snip1579">
+				<img src="assets/img/shpe.png" alt="profile-sample2"/>
+  					<figcaption>
+					    <h3>SHPE</h3>
+					    <h5>Data Visualization</h5>
+   						 <blockquote>
+     						 <p>Develop software for the Society of Professional Hispanic Engineers to visualize data in a user friendly way. </p>
+    					 </blockquote>
+  					</figcaption><
+				</figure>
+
+				<figure class="snip1579">
+				<img src="assets/img/othello.jpg" style="background-color: #ff8242;" alt="profile-sample2"/>
+  					<a target= "_blank">
+  					<figcaption>
+					    <h3>Othello Game</h3>
+					    <h5>Game Front-End and Back-End</h5>
+   						 <blockquote>
+     						 <p>Using Python, I created Othello and developed the back end and front end. The back end utilized multiple modules to emphasize the modularity. The front end was created using Python's Tkinter library.</p>
+    					 </blockquote>
+  					</figcaption></a>
+				</figure>
+
+				<figure class="snip1579">
+				<img src="assets/img/mapquest.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank">
+  					<figcaption>
+					    <h3>Mapquest API Program</h3>
+					    <h5>Utilized Mapquest's API and documentation</h5>
+   						 <blockquote>
+     						 <p>Assignment for Programming with Software Libraries class: create a program that utilizes Mapquest's API to find specific deatils about trips. </p>
+    					 </blockquote>
+  					</figcaption></a>
+				</figure>
+
+			<!-- Section --> 
+			<section id="two">
+				<div id="educationLogo">
+					<h1 class="icon fa-university" id="experience"> Education</h1>
+				</div>
+				
+				<figure class="snip1580">
+					<img src="assets/img/educ-UCI-logo.png" style="background-color: white;" alt="profile-sample2"/>
+	  				<a target= "_blank" href="http://www.uci.edu/"></a>
+				</figure>
+
+				<div id="educationInfo">
+					<h2>University of California, Irvine</h2>
+					<h3><i>Bachelor of Science</i>, Software Engineering</h3>
+					<h3>Class of 2020</h3>
+				</div>
+			</section>
+
+			<!-- Section --> 
+			<section id="three" style="background-color: #f6f6f6;">
+				<div id="experienceLogo">
+					<h1 class="icon fa-map-signs" id="experience"> Experience</h1>
+				</div>
+
+				<figure class="snip1579">
+				<img src="assets/img/code2040.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="http://www.code2040.org/">
+  				<figcaption>
+  					<h3>Code2040</h3>
+  					<h5>Fellowship Finalist</h5>
+  					</figcaption></a>
+				</figure>
+				
+				<figure class="snip1579">
+				<img src="assets/img/shpe.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="http://clubs.uci.edu/shpe/">
+  				<figcaption>
+  					<h3>Society of Professional Hispanic Engineers</h3>
+  					<h5>Mentor</h5>
+  					</figcaption></a>
+				</figure>
+
+				<figure class="snip1579">
+				<img src="assets/img/ncaa.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="orientation.usc.edu">
+  				<figcaption>
+  					<h3>NCAA Division 1 Athlete</h3>
+  					<h5>UC Irvine Track and Field</h5>
+  					</figcaption></a>
+				</figure>
+			</section>
+
+			<!-- Section --> 
+			<section id="three">
+				<div id="experienceLogo">
+					<h1 class="icon fa-group" id="experience"> Organizations</h1>
+				</div>
+
+				<figure class="snip1579">
+				<img src="assets/img/code2040.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="http://clubs.uci.edu/shpe/">
+  				<figcaption>
+  					<h3>Society of Professional Hispanic Engineers</h3>
+  					<h5>Member</h5>
+  					</figcaption></a>
+				</figure>
+
+				<figure class="snip1579">
+				<img src="assets/img/ncaa.png" style="background-color: white;" alt="profile-sample2"/>
+  					<a target= "_blank" href="http://https://ucirvinesports.com/index.aspx?path=mtrack/">
+  				<figcaption>
+  					<h3>UCI Track and Field</h3>
+  					<h5>NCAA Division 1 Student Athelete</h5>
+  					</figcaption></a>
+				</figure>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2 class="icon fa-hand-peace-o"> Reach out to me</h2>
+						<div id="contactInfo">
+							<img src="assets/img/omar.jpg" id="omarImage">
+							<p>Email: <a href= "mailto:ovalenzu@uci.edu">ovalenzu@uci.edu</a></p>
 						</div>
 					</section>
+					<ul class="copyright">
+						<li>&copy; Omar Valenzuela. All rights reserved.</li><li>Design: HTML5 UP - Aerial</li>
+					</ul>
+				</div>
+			</footer>
+		
+		</div>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+			// Calls Points background
+			const canvasBody = document.getElementById("canvas"),
+			drawArea = canvasBody.getContext("2d");
+			let delay = 200, tid,
+			rgb = opts.lineColor.match(/\d+/g);
+			resizeReset();
+			setup();
+		</script>
 	</body>
 </html>
+
+<!-- Bootstrapped Aerial by HTML5 UP html5up.net | @ajlkn -->
